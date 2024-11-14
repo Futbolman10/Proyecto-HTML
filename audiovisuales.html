@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Que es fútbol?</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: 250px;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Que es fútbol?</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="historia.html">Un poco de historia</a></li>
+                <li><a class="active" href="audiovisuales.html">Algo para ver y disfrutar</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="centrado" style="margin-top: 15px;">
+            <iframe width="560" height="300" src="https://www.youtube.com/embed/5RSIMj-CaCk?si=a8ULpNTcD4n0YVbS"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div><br>
+        <div class="centrado">Lo más visto del genio</div>
+    </section>
+    <br>
+    <hr>
+    <h2 style="margin: 15px;">Un poco de futbol amateur</h2>
+    <section class="centrado">
+        <div class="gallery">
+            <a href="Assets/Img/WhatsApp Image 2024-11-06 at 20.17.08 (1).jpeg" target="_blank"><img
+                    src="Assets/Img/WhatsApp Image 2024-11-06 at 20.17.08 (1).jpeg" alt="futbol1"></a>
+            <div  class="desc">Quitar y salir jugando</div>
+        </div>
+        <div class="gallery">
+            <a href="Assets/Img/WhatsApp Image 2024-11-06 at 20.18.26.jpeg" target="_blank"><img
+                    src="Assets/Img/WhatsApp Image 2024-11-06 at 20.18.26.jpeg" alt="futbol4"></a>
+            <div class="desc">Paro y atacamos</div>
+        </div>
+        <div class="gallery">
+            <a href="Assets/Img/WhatsApp Image 2024-11-06 at 20.17.08.jpeg"><img
+                    src="Assets/Img/WhatsApp Image 2024-11-06 at 20.17.08.jpeg" alt="futbol2"></a>
+            <div class="desc">A salir del fondo</div>
+        </div>
+        <div class="gallery">
+            <a href="Assets/Img/WhatsApp Image 2024-11-06 at 20.20.40.jpeg"><img
+                    src="Assets/Img/WhatsApp Image 2024-11-06 at 20.20.40.jpeg" alt="futbol3"></a>
+            <div class="desc">Se discute un poco</div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2024</p>
+    </footer>
+</body>
+
+</html>
